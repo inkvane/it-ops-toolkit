@@ -1,0 +1,41 @@
+"""脚本 3：找出日志里出现最多的行。"""
+
+import sys
+
+
+def top_lines(path, n=5):
+    counts = {}
+    skipped = 0
+    try:
+        f = open(path, encoding="utf-8")
+    except FileNotFoundError:
+        print(f"文件不存在：{path}")
+        return None
+    with f:
+        for line in f:
+            line = line.strip().split(maxsplit=2)
+            if len(line) < 3:
+                skipped += 1
+                continue
+            else:
+                log = line[2]
+            counts[log] = counts.get(log, 0) + 1
+
+    pairs = sorted(counts.items(), key=lambda kv: kv[1], reverse=True)
+    return pairs[:n], skipped
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        path = sys.argv[1]
+    else:
+        path = "."
+
+    result = top_lines(path)
+    if result is None:
+        sys.exit(1)
+    pairs, skipped = result
+
+    for key, value in pairs:
+        print(key, value)
+    print(f"(跳过 {skipped} 行无效数据)")

@@ -1,0 +1,220 @@
+2026-11-03 09:00:05 WARN  disk usage above 90% on PC-012
+2026-11-03 09:00:26 WARN  disk usage above 90% on PC-012
+2026-11-03 09:00:29 ERROR connection refused to PC-007
+2026-11-03 09:00:47 WARN  printer not responding
+2026-11-03 09:00:59 ERROR connection refused to PC-007
+2026-11-03 09:01:01 ERROR timeout waiting for response
+2026-11-03 09:01:18 INFO  user login
+2026-11-03 09:01:20 ERROR connection refused to PC-007
+2026-11-03 09:01:34 ERROR connection refused to PC-007
+2026-11-03 09:01:37 WARN  disk usage above 90% on PC-012
+2026-11-03 09:01:40 ERROR connection refused to PC-007
+2026-11-03 09:01:54 ERROR timeout waiting for response
+2026-11-03 09:02:13 ERROR connection refused to PC-007
+2026-11-03 09:02:21 ERROR connection refused to PC-007
+2026-11-03 09:02:42 INFO  start service ok
+2026-11-03 09:02:44 ERROR timeout waiting for response
+2026-11-03 09:03:03 ERROR timeout waiting for response
+2026-11-03 09:03:05 WARN  disk usage above 90% on PC-012
+2026-11-03 09:03:07 ERROR connection refused to PC-007
+2026-11-03 09:03:12 ERROR timeout waiting for response
+2026-11-03 09:03:26 ERROR connection refused to PC-007
+2026-11-03 09:03:44 ERROR connection refused to PC-007
+2026-11-03 09:04:03 ERROR connection refused to PC-007
+2026-11-03 09:04:21 ERROR connection refused to PC-007
+2026-11-03 09:04:43 WARN  printer not responding
+2026-11-03 09:04:47 ERROR connection refused to PC-007
+2026-11-03 09:05:06 ERROR timeout waiting for response
+2026-11-03 09:05:13 INFO  start service ok
+2026-11-03 09:05:17 WARN  disk usage above 90% on PC-012
+2026-11-03 09:05:40 ERROR timeout waiting for response
+2026-11-03 09:05:59 ERROR connection refused to PC-007
+2026-11-03 09:06:19 ERROR connection refused to PC-007
+2026-11-03 09:06:35 ERROR connection refused to PC-007
+2026-11-03 09:06:53 INFO  start service ok
+2026-11-03 09:07:18 WARN  disk usage above 90% on PC-012
+2026-11-03 09:07:33 WARN  disk usage above 90% on PC-012
+2026-11-03 09:07:48 ERROR timeout waiting for response
+2026-11-03 09:07:58 WARN  disk usage above 90% on PC-012
+2026-11-03 09:08:04 ERROR connection refused to PC-007
+2026-11-03 09:08:29 INFO  start service ok
+2026-11-03 09:08:32 ERROR connection refused to PC-007
+2026-11-03 09:08:42 ERROR timeout waiting for response
+2026-11-03 09:08:58 ERROR timeout waiting for response
+2026-11-03 09:09:09 ERROR access denied for user report
+2026-11-03 09:09:24 INFO  backup finished
+2026-11-03 09:09:44 ERROR connection refused to PC-007
+2026-11-03 09:09:48 ERROR connection refused to PC-007
+2026-11-03 09:10:02 ERROR timeout waiting for response
+2026-11-03 09:10:27 ERROR connection refused to PC-007
+2026-11-03 09:10:32 WARN  disk usage above 90% on PC-012
+2026-11-03 09:10:48 INFO  user login
+2026-11-03 09:10:50 WARN  disk usage above 90% on PC-012
+2026-11-03 09:10:53 INFO  start service ok
+2026-11-03 09:11:11 INFO  backup finished
+2026-11-03 09:11:22 ERROR timeout waiting for response
+2026-11-03 09:11:45 WARN  disk usage above 90% on PC-012
+2026-11-03 09:12:05 WARN  disk usage above 90% on PC-012
+2026-11-03 09:12:24 ERROR timeout waiting for response
+2026-11-03 09:12:39 WARN  printer not responding
+2026-11-03 09:12:42 ERROR connection refused to PC-007
+2026-11-03 09:12:51 INFO  user login
+2026-11-03 09:13:14 WARN  disk usage above 90% on PC-012
+2026-11-03 09:13:17 INFO  start service ok
+2026-11-03 09:13:41 ERROR connection refused to PC-007
+2026-11-03 09:13:51 INFO  start service ok
+2026-11-03 09:14:10 INFO  start service ok
+2026-11-03 09:14:25 INFO  start service ok
+2026-11-03 09:14:48 ERROR connection refused to PC-007
+2026-11-03 09:15:10 WARN  disk usage above 90% on PC-012
+2026-11-03 09:15:11 WARN  disk usage above 90% on PC-012
+2026-11-03 09:15:26 INFO  user login
+2026-11-03 09:15:32 WARN  disk usage above 90% on PC-012
+2026-11-03 09:15:36 ERROR timeout waiting for response
+2026-11-03 09:15:38 ERROR timeout waiting for response
+2026-11-03 09:16:03 ERROR connection refused to PC-007
+2026-11-03 09:16:08 ERROR connection refused to PC-007
+2026-11-03 09:16:16 INFO  backup finished
+2026-11-03 09:16:29 WARN  disk usage above 90% on PC-012
+2026-11-03 09:16:45 INFO  user login
+2026-11-03 09:16:51 ERROR connection refused to PC-007
+2026-11-03 09:17:04 WARN  disk usage above 90% on PC-012
+2026-11-03 09:17:13 ERROR timeout waiting for response
+2026-11-03 09:17:18 ERROR access denied for user report
+2026-11-03 09:17:32 WARN  printer not responding
+2026-11-03 09:17:50 ERROR access denied for user report
+2026-11-03 09:18:13 ERROR connection refused to PC-007
+2026-11-03 09:18:25 WARN  disk usage above 90% on PC-012
+2026-11-03 09:18:38 INFO  start service ok
+2026-11-03 09:18:43 ERROR connection refused to PC-007
+2026-11-03 09:18:49 ERROR connection refused to PC-007
+2026-11-03 09:18:57 ERROR connection refused to PC-007
+2026-11-03 09:19:05 INFO  start service ok
+2026-11-03 09:19:21 ERROR connection refused to PC-007
+2026-11-03 09:19:40 WARN  printer not responding
+2026-11-03 09:19:49 ERROR connection refused to PC-007
+2026-11-03 09:19:50 ERROR connection refused to PC-007
+2026-11-03 09:20:04 ERROR connection refused to PC-007
+2026-11-03 09:20:16 ERROR timeout waiting for response
+2026-11-03 09:20:35 ERROR timeout waiting for response
+2026-11-03 09:20:40 WARN  disk usage above 90% on PC-012
+2026-11-03 09:20:57 INFO  start service ok
+2026-11-03 09:21:18 ERROR timeout waiting for response
+2026-11-03 09:21:42 INFO  start service ok
+2026-11-03 09:21:57 ERROR connection refused to PC-007
+2026-11-03 09:22:22 ERROR access denied for user report
+2026-11-03 09:22:44 ERROR access denied for user report
+2026-11-03 09:23:02 WARN  printer not responding
+2026-11-03 09:23:15 WARN  disk usage above 90% on PC-012
+2026-11-03 09:23:28 WARN  disk usage above 90% on PC-012
+2026-11-03 09:23:44 ERROR connection refused to PC-007
+2026-11-03 09:23:57 INFO  start service ok
+2026-11-03 09:24:04 ERROR connection refused to PC-007
+2026-11-03 09:24:11 ERROR connection refused to PC-007
+2026-11-03 09:24:17 WARN  disk usage above 90% on PC-012
+2026-11-03 09:24:28 ERROR connection refused to PC-007
+2026-11-03 09:24:30 ERROR timeout waiting for response
+2026-11-03 09:24:31 ERROR connection refused to PC-007
+2026-11-03 09:24:36 ERROR timeout waiting for response
+2026-11-03 09:24:40 ERROR timeout waiting for response
+2026-11-03 09:25:00 WARN  disk usage above 90% on PC-012
+2026-11-03 09:25:03 ERROR connection refused to PC-007
+2026-11-03 09:25:10 ERROR access denied for user report
+2026-11-03 09:25:23 ERROR timeout waiting for response
+2026-11-03 09:25:44 ERROR connection refused to PC-007
+2026-11-03 09:25:56 ERROR connection refused to PC-007
+2026-11-03 09:26:08 ERROR timeout waiting for response
+2026-11-03 09:26:12 WARN  disk usage above 90% on PC-012
+2026-11-03 09:26:28 ERROR connection refused to PC-007
+2026-11-03 09:26:44 WARN  disk usage above 90% on PC-012
+2026-11-03 09:26:54 WARN  disk usage above 90% on PC-012
+2026-11-03 09:26:59 ERROR connection refused to PC-007
+2026-11-03 09:27:23 ERROR connection refused to PC-007
+2026-11-03 09:27:47 WARN  disk usage above 90% on PC-012
+2026-11-03 09:28:03 ERROR connection refused to PC-007
+2026-11-03 09:28:26 WARN  printer not responding
+2026-11-03 09:28:43 ERROR connection refused to PC-007
+2026-11-03 09:28:50 ERROR connection refused to PC-007
+2026-11-03 09:29:02 ERROR timeout waiting for response
+2026-11-03 09:29:25 ERROR connection refused to PC-007
+2026-11-03 09:29:26 ERROR timeout waiting for response
+2026-11-03 09:29:43 INFO  backup finished
+2026-11-03 09:30:04 ERROR connection refused to PC-007
+2026-11-03 09:30:07 ERROR access denied for user report
+2026-11-03 09:30:16 INFO  start service ok
+2026-11-03 09:30:28 ERROR timeout waiting for response
+2026-11-03 09:30:34 INFO  user login
+2026-11-03 09:30:59 WARN  disk usage above 90% on PC-012
+2026-11-03 09:31:17 ERROR connection refused to PC-007
+2026-11-03 09:31:42 ERROR timeout waiting for response
+2026-11-03 09:31:53 ERROR timeout waiting for response
+2026-11-03 09:32:01 INFO  start service ok
+2026-11-03 09:32:26 ERROR timeout waiting for response
+2026-11-03 09:32:33 WARN  printer not responding
+2026-11-03 09:32:41 WARN  printer not responding
+2026-11-03 09:32:54 WARN  printer not responding
+2026-11-03 09:33:02 INFO  backup finished
+2026-11-03 09:33:19 ERROR connection refused to PC-007
+2026-11-03 09:33:31 ERROR timeout waiting for response
+2026-11-03 09:33:32 INFO  backup finished
+2026-11-03 09:33:41 ERROR connection refused to PC-007
+2026-11-03 09:33:50 WARN  disk usage above 90% on PC-012
+2026-11-03 09:34:13 ERROR connection refused to PC-007
+2026-11-03 09:34:25 ERROR timeout waiting for response
+2026-11-03 09:34:49 WARN  disk usage above 90% on PC-012
+2026-11-03 09:35:01 WARN  disk usage above 90% on PC-012
+2026-11-03 09:35:09 ERROR connection refused to PC-007
+2026-11-03 09:35:17 ERROR connection refused to PC-007
+2026-11-03 09:35:24 WARN  disk usage above 90% on PC-012
+2026-11-03 09:35:31 WARN  disk usage above 90% on PC-012
+2026-11-03 09:35:51 WARN  disk usage above 90% on PC-012
+2026-11-03 09:36:11 ERROR access denied for user report
+2026-11-03 09:36:12 WARN  printer not responding
+2026-11-03 09:36:33 WARN  disk usage above 90% on PC-012
+2026-11-03 09:36:54 WARN  disk usage above 90% on PC-012
+2026-11-03 09:37:16 ERROR connection refused to PC-007
+2026-11-03 09:37:29 ERROR connection refused to PC-007
+2026-11-03 09:37:52 INFO  backup finished
+2026-11-03 09:37:59 INFO  backup finished
+2026-11-03 09:38:05 WARN  disk usage above 90% on PC-012
+2026-11-03 09:38:26 WARN  disk usage above 90% on PC-012
+2026-11-03 09:38:29 WARN  disk usage above 90% on PC-012
+2026-11-03 09:38:53 WARN  printer not responding
+2026-11-03 09:39:08 WARN  disk usage above 90% on PC-012
+2026-11-03 09:39:32 WARN  disk usage above 90% on PC-012
+2026-11-03 09:39:56 ERROR connection refused to PC-007
+2026-11-03 09:40:02 ERROR connection refused to PC-007
+2026-11-03 09:40:03 ERROR connection refused to PC-007
+2026-11-03 09:40:22 ERROR connection refused to PC-007
+2026-11-03 09:40:37 ERROR access denied for user report
+2026-11-03 09:40:58 WARN  printer not responding
+2026-11-03 09:41:18 ERROR connection refused to PC-007
+2026-11-03 09:41:38 WARN  printer not responding
+2026-11-03 09:42:00 WARN  disk usage above 90% on PC-012
+2026-11-03 09:42:12 INFO  user login
+2026-11-03 09:42:30 ERROR connection refused to PC-007
+2026-11-03 09:42:35 ERROR timeout waiting for response
+2026-11-03 09:42:36 ERROR connection refused to PC-007
+2026-11-03 09:43:00 WARN  printer not responding
+2026-11-03 09:43:04 INFO  start service ok
+2026-11-03 09:43:28 ERROR timeout waiting for response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
