@@ -15,8 +15,9 @@ def hosts_from_log(path):
     with f:
         for line in f:
             for word in line.split():  # ← 每个词看一眼
-                if word.startswith("PC-"):  # 是不是机器名
-                    hosts.add(word)
+                clean = word.strip("()[],:;.")
+                if clean.startswith("PC-"):
+                    hosts.add(clean)
 
     return sorted(hosts)  # 排序后返回 list
 
