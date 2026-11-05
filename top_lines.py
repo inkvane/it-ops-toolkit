@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """脚本 3：找出日志里出现最多的行。"""
 
 import sys
