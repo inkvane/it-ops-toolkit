@@ -22,7 +22,8 @@ def top_lines(path, n=5):
             counts[log] = counts.get(log, 0) + 1
 
     pairs = sorted(counts.items(), key=lambda kv: kv[1], reverse=True)
-    return pairs[:n], skipped
+    total = sum(counts.values())
+    return pairs[:n], skipped, total
 
 
 if __name__ == "__main__":
@@ -34,8 +35,8 @@ if __name__ == "__main__":
     result = top_lines(path)
     if result is None:
         sys.exit(1)
-    pairs, skipped = result
+    pairs, skipped, total = result
 
-    for key, value in pairs:
-        print(key, value)
+    for i, (key, value) in enumerate(pairs):
+        print(f"{i + 1:>2}.{value:>5}次  {value / total * 100:>5.1f}%  {key:<40}")
     print(f"(跳过 {skipped} 行无效数据)")
