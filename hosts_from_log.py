@@ -8,9 +8,9 @@ import sys
 def hosts_from_log(path):
     hosts = set()  # 用 set，天然去重
     try:
-        f = open(path, encoding="utf-8")
-    except FileNotFoundError:
-        print(f"文件不存在：{path}")
+        f = open(path, encoding="utf-8", errors="replace")
+    except OSError as e:
+        print(f"文件无法读取 {path}: {e}")
         return None
 
     with f:
@@ -25,7 +25,8 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         path = sys.argv[1]
     else:
-        path = "."
+        print("请传入正确的参数！用法：python hosts_from_log.py <日志文件>")
+        sys.exit(2)
     hosts = hosts_from_log(path)
     if hosts is None:
         sys.exit(1)

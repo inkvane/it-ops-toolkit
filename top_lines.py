@@ -3,6 +3,8 @@
 
 import sys
 
+from mylib import by_size
+
 
 def top_lines(path, n=5):
     counts = {}
@@ -22,7 +24,7 @@ def top_lines(path, n=5):
                 log = line[2]
             counts[log] = counts.get(log, 0) + 1
 
-    pairs = sorted(counts.items(), key=lambda kv: kv[1], reverse=True)
+    pairs = sorted(counts.items(), key=by_size, reverse=True)
     total = sum(counts.values())
     return pairs[:n], skipped, total
 
