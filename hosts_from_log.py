@@ -1,6 +1,7 @@
 """输入：一个日志文件路径
 输出：日志里出现过的所有机器标识（形如 PC-xxx），去重后按名字排序，一行一个"""
 
+import re
 import sys
 
 
@@ -14,10 +15,8 @@ def hosts_from_log(path):
 
     with f:
         for line in f:
-            for word in line.split():  # ← 每个词看一眼
-                clean = word.strip("()[],:;.")
-                if clean.startswith("PC-"):
-                    hosts.add(clean)
+            for h in re.findall(r"\bPC-\d+", line):
+                hosts.add(h)
 
     return sorted(hosts)  # 排序后返回 list
 
