@@ -7,6 +7,7 @@ import sys
 
 def hosts_from_log(path):
     hosts = set()  # 用 set，天然去重
+    bad = 0
     try:
         f = open(path, encoding="utf-8", errors="replace")
     except OSError as e:
@@ -15,9 +16,11 @@ def hosts_from_log(path):
 
     with f:
         for line in f:
+            bad += line.count("\ufffd")
             for h in re.findall(r"\bPC-\d+", line):
                 hosts.add(h)
-
+    if bad:
+        print(f"注意：{bad} 处按替换字符处理，结果可能偏少", file=sys.stderr)
     return sorted(hosts)  # 排序后返回 list
 
 

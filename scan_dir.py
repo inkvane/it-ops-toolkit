@@ -3,6 +3,8 @@
 import os
 import sys
 
+from mylib import by_size, human_size
+
 
 def scan(path):
     result = []
@@ -15,21 +17,6 @@ def scan(path):
         full_path = os.path.join(path, name)
         result.append((name, os.path.getsize(full_path)))
     return result
-
-
-def human_size(n):
-    if n < 1024:
-        return f"{n} B"
-    elif n < 1024 * 1024:
-        return f"{n / 1024:.1f} KB"
-    elif n < 1024**3:
-        return f"{n / 1024 / 1024:.1f} MB"
-    else:
-        return f"{n / 1024 / 1024 / 1024:.1f} GB"
-
-
-def by_size(x):
-    return x[1]
 
 
 if __name__ == "__main__":
